@@ -8,12 +8,12 @@
 
 ### 免费vps免root一键安装hysteria2
 ```bash
-systemctl stop firewalld && cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/hysteria2-v1.py | python3 -
+cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/hysteria2-v1.py | python3 -
 ```
 
 ### 免费vps免root一键安装vmess
 ```bash
-systemctl stop firewalld && cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
+cd ~ && curl -fsSL https://raw.githubusercontent.com/zhumengkang/agsb/main/agsb-v2.py | python3 - install --uuid b1ebd5fc-9170-45d4-9887-a39c9fc65298 --port 49999 --agk CF-token --domain 自己的域名
 ```
 
 ### 固定域名一键安装命令
@@ -335,7 +335,10 @@ tail -f glitch.log
 ```bash
 cd ~ && wget https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh && chmod +x root.sh && ./root.sh
 ```
-
+## curl一键安装命令Proot
+```bash
+cd ~ && curl -sSL https://raw.githubusercontent.com/zhumengkang/agsb/main/root.sh -o root.sh && chmod +x root.sh && ./root.sh
+```
 ## 基本命令
 
 ```bash
@@ -460,3 +463,5 @@ echo "nameserver 8.8.8.8" >> /etc/resolv.conf
 
 如果您喜欢这个项目，请在GitHub上给我一个Star，或在YouTube上关注我的频道！
 如有问题或建议，欢迎通过GitHub Issues或Telegram群组联系我。
+## 赞助商
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
